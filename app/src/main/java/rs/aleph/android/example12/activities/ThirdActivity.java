@@ -18,7 +18,7 @@ public class ThirdActivity extends Activity {
         setContentView(R.layout.activity_third);
 
         // Shows a toast message (a pop-up message)
-        Toast toast = Toast.makeText(getBaseContext(), "SecondActivity.onCreate()", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getBaseContext(), "ThirdActivity.onCreate()", Toast.LENGTH_SHORT);
         toast.show();
     }
 
@@ -28,7 +28,7 @@ public class ThirdActivity extends Activity {
     protected void onStart() {
         super.onStart();
 
-        Toast toast = Toast.makeText(getBaseContext(), "SecondActivity.onStart()", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getBaseContext(), "ThirdActivity.onStart()", Toast.LENGTH_SHORT);
         toast.show();
     }
 
@@ -38,7 +38,7 @@ public class ThirdActivity extends Activity {
     protected void onRestart() {
         super.onRestart();
 
-        Toast toast = Toast.makeText(getBaseContext(), "SecondActivity.onRestart()", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getBaseContext(), "ThirdActivity.onRestart()", Toast.LENGTH_SHORT);
         toast.show();
     }
 
@@ -48,7 +48,7 @@ public class ThirdActivity extends Activity {
     protected void onResume() {
         super.onResume();
 
-        Toast toast = Toast.makeText(getBaseContext(), "SecondActivity.onResume()", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getBaseContext(), "ThirdActivity.onResume()", Toast.LENGTH_SHORT);
         toast.show();
     }
 
@@ -58,7 +58,7 @@ public class ThirdActivity extends Activity {
     protected void onPause() {
         super.onPause();
 
-        Toast toast = Toast.makeText(getBaseContext(), "SecondActivity.onPause()", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getBaseContext(), "ThirdActivity.onPause()", Toast.LENGTH_SHORT);
         toast.show();
     }
 
@@ -67,7 +67,7 @@ public class ThirdActivity extends Activity {
     protected void onStop() {
         super.onStop();
 
-        Toast toast = Toast.makeText(getBaseContext(), "SecondActivity.onStop()", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getBaseContext(), "ThirdActivity.onStop()", Toast.LENGTH_SHORT);
         toast.show();
     }
 
@@ -76,7 +76,7 @@ public class ThirdActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
 
-        Toast toast = Toast.makeText(getBaseContext(), "SecondActivity.onDestroy()", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getBaseContext(), "ThirdActivity.onDestroy()", Toast.LENGTH_SHORT);
         toast.show();
     }
 }
