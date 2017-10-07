@@ -84,8 +84,8 @@ public class SecondActivity extends Activity {
 
     // otvaramo kameru
     public void btnOpenCameraClicked(View view) {
-        Intent takePicture = new Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA);
-        startActivity(takePicture);
+        Intent intent2 = new Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA);
+        startActivity(intent2);
     }
 }
 
