@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="@string/open_third_activity"
         android:id="@+id/open_third_activity"
+        android:drawableLeft="@mipmap/ic_launcher"
         android:onClick="btnStartActivityClicked"/>
 
     <!-- Deklarišemo dugme za otvaranje kamere -->
@@ -19,6 +20,7 @@
         android:layout_height="wrap_content"
         android:text="@string/open_camera"
         android:id="@+id/open_camera"
+        android:drawableLeft="@mipmap/ic_launcher"
         android:onClick="btnOpenCameraClicked"/>
 
 
